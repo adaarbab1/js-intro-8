@@ -1,0 +1,35 @@
+
+
+
+10 - 04-2023 JS Strings
+
+- String is a data that stores a sequence characters in single or double quotes.
+
+- It is a primitive data type
+
+Data Types:
+1. Primitves: strings, numbers, null, underfined, bigint, boolean, symbol
+2. References: objects, there are thousands of them. Arrays, Objects, Math, Number, Math
+
+NOTE: Each reference type we are going to learn will compe up with many properties and functions/
+properties examples:
+Math.PI;
+Number.MAX_SAFE_INTEGER;
+array.length;
+
+funtions:
+Number.parseInt(data);
+Number.parseFloat(data);
+Math.pow(2, 3);
+Math.min(2, 3);
+Math.max(4, 7, 10);
+
+
+RETRIEVING THE characters from a strings
+1. property access
+str[index] --> returns the character found in the specified index
+
+
+2. charAt (index)
+-str.charAt(index) --- > returns the character found in the specified index
+- it always returns a string whether

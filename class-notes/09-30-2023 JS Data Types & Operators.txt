@@ -1,0 +1,51 @@
+
+
+09-30-2023 Data Types and Operators
+
+RECAP:
+
+console.log('Today is \n\t\'Saturday\'');
+
+
+Data Types:
+
+numbers:
+
+    whole numbers: 1, 2, 100, 100000
+    decimeal  numbers - floating numbers: 5.99, 4.59, 3.5
+
+texts: Alex, Chicago, A etc.
+
+dates: 11/11/1990, 09/30/2023 etc
+
+Collections: arrays
+
+
++Operators
+- It is used for addition when used between 2 numbers
+-it is used for concatenation when used between 2 strings or 1 number and 1 strings
+
+
+2+4    = 6
+
+10+23   =33
+
+'abc' + 'xyz' =  abcxyz
+'a    ' + '    b'  = 'a    b'
+
+'ab' + 25 = 'ab25'
+
+10+'x' = '10x'
+
+'23' + '10' = '2310'
+'5' + 5 = '55'
+2+'45' = '245'
+
+
+
+
+
+
+
+
+

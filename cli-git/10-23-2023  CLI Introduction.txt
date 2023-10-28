@@ -1,0 +1,88 @@
+
+
+
+10-23-2023 CLI Introduction 
+
+Command Line Interface 
+
+macOS - > Terminal
+
+1. pwd (mac) vs cd(windows)
+
+pwd  -> print working directory
+cd - change directory
+
+Directory =  folder
+
+mkdr = make directory
+
+Both of these commnds helps us to see where we are.
+
+PATH  =  location = home directory
+
+Home directory
+
+Windows -> C:\Users\username
+Mac - > /Users/username
+
+Root directory:
+
+Windows  - > C:/
+Mac  - >
+
+How to go to Home Directory?
+
+Mac - > Finder - command+shift+H
+
+2. ls (mac) or dir (windows)
+
+ls  -> list
+dir -> directories
+
+Both of these commands helps us to see what we have in the current address/location/folder
+
+
+3. clear (mac) vs cls (windows)
+
+clears the cmd and work space
+
+
+4. cd - change directory
+
+5. mkdir = make directory (both mac and windows)
+
+will create a new folder in the current location
+
+6. rmdir (both mac and windows)
+
+this command is used for deleting an existing folder in the current location/path/directory
+NOTE: It deletes only if the folder if EMPTY
+
+7. cd .. 
+
+Change directory to the parent folder
+
+8. rm - rf  directoryName (mac)
+rmdir  =  remove by force
+
+This command is used for removing an existing folder in the current location / path/ directory
+NOTE: it deletes even though folder is not EMPTY
+
+CHANGE DIRECTORY -  cd directoryName
+cd .. - > moves back to parent
+cd /   -> moves to root directory
+cd ~ - > moves to home Directory
+
+11. touch fileName (mac) vs echo. > fileName (windows)
+
+These commands are used to create empty files
+
+
+12. rm fileName (mac) vs del fileName (windows)
+
+13. echo "myInitialContent" > fileName (both mac and windows)
+
+this command is used to create a file with an initial content 
+
+
+ls -a is used to list all the files including hidden one for mac users

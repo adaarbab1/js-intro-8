@@ -1,0 +1,20 @@
+
+
+Set up
+
+1. Install git on your local and check if it correctly installed
+
+    git --version
+    git -v
+
+2. Create a GitHub account anf set global information for git
+
+git config  --global user.name ada.arbab1
+
+
+3. Check your Github/GitLab/Bitbucket and make sure the default branch is matching the one you set for local
+Setting /Repositories/Default Branch
+
+4. Set up am SSH keys whoich is used instead of password while you push or pull code
+pushing code = sending your code from local repository to remote repository
+pulling code = achieving 

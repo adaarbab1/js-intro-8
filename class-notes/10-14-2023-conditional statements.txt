@@ -1,0 +1,25 @@
+
+
+
+10-14-2023  Conditional Statements
+
+const isClass;
+
+if there is class, I will join the class
+else I will go for a walk
+
+
+Syntax:
+
+
+if (condition) {
+    // code block
+}
+
+Falsy values: false, null, NaN, 0, empty string, undefined
+
+Truthy values: true, 1, not falsy values
+
+
+
+NESTED  if-else Statements

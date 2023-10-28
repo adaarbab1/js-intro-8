@@ -1,0 +1,57 @@
+
+
+let isCoffee = trur; // There is isCoffee
+
+
+if (isCoffee) {
+    //A Cup of coffee
+}
+
+else {
+    // cup of tea
+}
+
+let isCoffee = false;
+let isTea = true;
+
+if (isCoffee) {
+    // A cup of coffee
+}
+
+else if (isTea) {
+    // A cup of tea
+}
+else {
+    // A cup of water
+}
+
+
+Nested if else
+
+    coffee 
+with cream          without cream
+
+
+    tea 
+with sugar          without sugar
+
+
+Ternary operator
+
+Find max number between 2 numbers
+let num1 =  20, num2 =10;
+
+let max;
+if(num1 > num2) {
+
+}
+else {
+    max = num2;
+}
+
+let max2 = num1 > num2 ? num1 : num2;
+
+
+name [0] === 'J' || name [0] === 'j'
+name.toUpperCase() [0] === 'J'
+name.toLowerCase()[0] === 'j'
