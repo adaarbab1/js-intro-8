@@ -1,0 +1,96 @@
+
+
+10-29-2023 Array methods
+
+-Array is a widely used data structure in any programming language/
+-Data Structure: general term used for storing data.
+
+You need to know a few things about each method of the array, string, object or whenever you learn a new method.
+
+-methodName
+-task that it runs
+-does it take argument? If yes, how many or what type of arguments
+-does it return anything? If yes, then what it returns
+
+
+1. push() method
+- add new elements to an existing array -  to the end - tail
+- it may take one more multiple elements as arguments
+- it returns the new length of the array as a number
+- it changes the original array
+
+2. pop() method
+
+- removes the last element from an existing array
+- it doesn't take any argument
+- it returns the removed element back
+- it changes the original array
+
+shift vs unshift
+unshit -> add - makes array longer
+shift -> remove - makes array shorter
+
+3. unshift() methods
+
+- - add new elements to an existing array -  to the beginning - head
+- it may take one more multiple elements as arguments
+- it returns the new length of the array as a number
+- it changes the original array
+
+4. shift () methods
+- removes the first element from an existing array
+- it doesn't take any argument
+- it returns the removed element back
+- it changes the original array
+
+
+5. includes () method
+- checks if an element exist in an array and returns boolean
+- it takes one element as an argument
+- returns true if the element is present in the array, or false otherwise
+- it does not change the original array
+
+6. indexOf () method
+- checks if an element exist in an array and returns the first found occurence's index.
+- it takes one element as an argument
+- it returns an index as a number (0 or positive if the element exists, -1 otherwise)
+- it does not change the original array
+
+
+7. lastIndexOf () method
+
+- checks if an element exist in an array and returns the last found occurence's index.
+- it takes one element as an argument
+- it returns an index as a number (0 or positive if the element exists, -1 otherwise)
+- it does not change the original array
+
+8 concat () method
+- concatenates / combines two or more arrays together
+- it takes an array as an argument
+- it returns a new array
+- it does not change anything in the original Array
+
+Spread Operator: The Spread (...) operator expands an iterable (like an array) into its individual elements
+
+
+9. Reverse() method
+- reverses the original Array
+- it does not take any argument
+- it returns the modified original Array
+- it changes the original array 
+
+
+10. Slice () method
+- used to get sub-array from original array
+- it takes either one or two 2 arguments as starting and ending indexes
+- it returns sub-array
+- it doesn't change anything in original array
+
+11. Splice() method
+- adds / removes or do both within array
+- it takes 2 or more arguments
+- first argument defines the position where new elements should be added/removed.
+- second argument defines how many elements be removed
+- rest of the arguments define the new elements to be added
+- it returns the removed elements in an array
+
