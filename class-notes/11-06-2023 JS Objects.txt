@@ -1,0 +1,5 @@
+11-06-2023 JS Objects
+
+Object functions: the value of a key in an objcet could be function as well.
+
+In JavaScript, functions are also objects.

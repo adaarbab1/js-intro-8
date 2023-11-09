@@ -1,0 +1,45 @@
+10-30-2023 Array Methods - Desctructuring
+
+13. sort () Method
+- used to sort array elements
+    -Strings: alphabetically from A-Z and a-z
+    -Numbers: You may expect to sort from smaller to greater number but it still sorts alphabetically
+- it does not take any argument when you are sorting strings but we can some arguments to sort numbers as expected.
+- it returns the original array back sorted
+- it modifies the original array
+
+SORTING NUMBERS with a comparison callback function!
+callback function: is a function passed into another function as an argument.
+
+const numbers = [ 1, 2, 5, 100, 21 ];
+numbers.sort ((a, b) => a - b); // sorting ascending - smaller to bigger
+numbers.sort ((a, b) => b - a); // sorting descending - bigger to smaller
+console.log(numbers); // [ 1, 2, 5, 21, 100 ]
+
+a          b        a  - b information
+1          2        -1     1 should be before 2
+2          5        -3     2 should be before 5
+5          100      -95    5 should be before 100
+100        21       79     100 should be after 21
+
+
+14. flat () method 
+- reduces the dimension of nested arrays with their elements
+- if it is only one nested array, you don't need to but for more nested arrays, you may use dimension array
+-it returns a new array which flattened
+- doesn't change anything in original array
+
+15. toString () method
+- used to convert an array to a strings
+- does not take any argument
+- it returns a strings
+- it does not change anything with the original array
+
+16. toString () method
+- used to convert an array to a strings
+- does not take any argument if you want to get default separator (coma). However, it allows
+us to give our own separator as a string argument.
+- it returns a strings
+- it does not change anything with the original array
+
+

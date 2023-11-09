@@ -94,3 +94,15 @@ Spread Operator: The Spread (...) operator expands an iterable (like an array) i
 - rest of the arguments define the new elements to be added
 - it returns the removed elements in an array
 
+How do you understand if a variable is an array?
+    - You can use Array.isArray() method to check if a variable is actually an array.
+    - If this methods returns true, then the variable is array, otherwise it will return false stating the variable is not an array.
+
+12. Array.isArray()method
+- used to check if a variable is array
+- it takes an argument to be checked
+- it returns a boolean. It returns true if the variable is actually an array, false otherwise.
+-it does not change anything with the original array.
+
+
+

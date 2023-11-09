@@ -25,3 +25,4 @@ console.log  (str1.slice(4)); // Global
 console.log  (str1.slice(-3)); // bal
 console.log  (str1.slice(-2, -4)); // " "
 console.log  (str1.slice(-4, -2)); // ob
+
