@@ -300,3 +300,19 @@ console.log (mostRepeated([4, 7, 4, 4, 4, 23, 23, 23]));
 console.log (mostRepeated(["pen", "pencil", "pen", "123", "abc", "pen", "pencil"]));
 console.log (mostRepeated([10]));
 console.log (mostRepeated(["Tech Global"]));
+
+
+const singer = {
+    eat: function () {
+        console.log ('EAT');
+    },
+    sleep: function () {
+        console.log ('SLEEP');
+    },
+    walk: function () {
+        console.log ('WALK')
+    },
+    sing: function () {
+        console.log ('SING')
+    }
+}
